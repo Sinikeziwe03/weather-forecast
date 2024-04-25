@@ -24,13 +24,13 @@ a {
   width: 70%;
   padding: 15px 20px;
   font-size: 16px;
-  color:black;
+  color: black;
 }
 .search-form-button {
   border: none;
   padding: 15px 20px;
   font-size: 16px;
-  color:white;
+  color: white;
   border-radius: 6px;
   background-color: rgba(4, 135, 187, 0.925);
 }
@@ -59,15 +59,17 @@ main {
   display: flex;
 }
 .weather-app-icon {
-  font-size: 40px;
-  margin-top: 22px;
+  width: 88px;
+  height: 88px;
 }
 .weather-app-unit {
   font-size: 28px;
-  margin-top: 16px;
+  margin-top: 6px;
 }
 .weather-app-temperature {
-  font-size: 88px;
+  font-size: 80px;
+  margin-left: 10px;
+  line-height: 88px;
   font-weight: bold;
 }
 footer {

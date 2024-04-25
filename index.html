@@ -2,46 +2,57 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="src/style.css" />
     <title>Weather Forecast</title>
   </head>
   <body>
     <div class="weather-app">
-    <header>
-        <form>
-            <input type="search" required />
-            <input type="submit" value="search"/>
+      <header>
+        <form class="search-form">
+          <input
+            type="text"
+            placeholder="Enter a city..."
+            required
+            class="search-form-input"
+          />
+          <input type="submit" value="Search" class="search-form-button" />
         </form>
-    </header>
-    <main>
-        <div>
-        <h1>Johannesburg</h1>
-        <p>
-          Tuesday 11:22, scattered clouds
-          <br/>
-          Humidity: 66%, Wind: 3.13 km/h
-        </p>
-        </div>
-        <div>🌤️25°C</div>
-    </main>
-    <footer>
-      Coded by
-      <a href="https://github.com/" target="_blank">Sinikeziwe Mdliva</a> , code
-      hosted by
-      <a
-        href="https://github.com/Sinikeziwe03/weather-forecast.git"
-        target="_blank"
-        >GitHub</a
-      >
-      and website hosted on
-      <a href="https://majestic-custard-f0f1fa.netlify.app/" target="_blank"
-        >Netlify</a
-      >.
-    </footer>
+      </header>
+      <main>
+        <div class="weather-app-data">
+          <div>
+            <h1 class="city">Johannesburg</h1>
+            <p class="details">
+              Tuesday 11:22, scattered clouds
+              <br />
+              Humidity:<strong>66%</strong>, Wind: <strong>3.14 km/h</strong>
+            </p>
+          </div>
+          <div class="weather-app-temperature-container">
+            <div class="weather-app-icon">🌤️</div>
+            <div class="weather-app-temperature">25</div>
+            <div class="weather-app-unit">°C</div>
+          </div>
+      </main>
+      <footer>
+        <a href="https://github.com/" target="_blank">Sinikeziwe Mdliva</a> ,
+        code hosted by
+        <a
+          href="https://github.com/Sinikeziwe03/weather-forecast.git"
+          target="_blank"
+          >GitHub</a
+        >
+        and website hosted on
+        <a href="https://majestic-custard-f0f1fa.netlify.app/" target="_blank"
+          >Netlify</a>
+      </footer>
     </div>
   </body>
 </html>

@@ -12,10 +12,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
     <title>Weather Forecast</title>
+   
   </head>
   <body>
     <div class="weather-app">
       <header>
+
         <form class="search-form" id="search-form">
           <input
             type="text"
@@ -31,77 +33,25 @@
         <div class="weather-app-data">
           <div>
             <h1 class="city" id="city"></h1>
-            <p class="details" >
+            <p class="details">
               <span id="time"></span>
               <span id="description"></span>
               <br />
-              Humidity:<strong id="humidity"></strong>, Wind: <strong id="wind-speed"></strong>
+              Humidity:<strong id="humidity"></strong>, Wind:
+              <strong id="wind-speed"></strong>
             </p>
           </div>
           <div class="weather-app-temperature-container">
-            <div id="icon">
-            
-</div>
-            
+            <div id="icon"></div>
+
             <div class="weather-app-temperature" id="temperature"></div>
             <div class="weather-app-unit">°C</div>
           </div>
-          </div>
-      
-      <div class="weather-forecast">
-        <div class="weather-forecast-day">
-            <div class="weather-forecast-date">Tue</div>
-            <div class="weather-forecast-icon">🌤️</div>
-            <div class="weather-forecast-temperatures">
-              <div class="weather-forecast-temperature">
-                <strong>15º</strong>
-              </div>
-              <div class="weather-forecast-temperature">9º</div>
-            </div>
-          </div>
-          <div class="weather-forecast-day">
-            <div class="weather-forecast-date">Wed</div>
-            <div class="weather-forecast-icon">🌤️</div>
-            <div class="weather-forecast-temperatures">
-              <div class="weather-forecast-temperature">
-                <strong>15º</strong>
-              </div>
-              <div class="weather-forecast-temperature">9º</div>
-            </div>
-          </div>
-          <div class="weather-forecast-day">
-            <div class="weather-forecast-date">Wed</div>
-            <div class="weather-forecast-icon">🌤️</div>
-            <div class="weather-forecast-temperatures">
-              <div class="weather-forecast-temperature">
-                <strong>15º</strong>
-              </div>
-              <div class="weather-forecast-temperature">9º</div>
-            </div>
-          </div>
-          <div class="weather-forecast-day">
-            <div class="weather-forecast-date">Wed</div>
-            <div class="weather-forecast-icon">🌤️</div>
-            <div class="weather-forecast-temperatures">
-              <div class="weather-forecast-temperature">
-                <strong>15º</strong>
-              </div>
-              <div class="weather-forecast-temperature">9º</div>
-            </div>
-          </div>
-          <div class="weather-forecast-day">
-            <div class="weather-forecast-date">Wed</div>
-            <div class="weather-forecast-icon">🌤️</div>
-            <div class="weather-forecast-temperatures">
-              <div class="weather-forecast-temperature">
-                <strong>15º</strong>
-              </div>
-              <div class="weather-forecast-temperature">9º</div>
-            </div>
-          </div>
-      </div>
-    </main>
-      <footer>
+        </div>
+
+        <div class="weather-forecast" id="forecast"></div>
+      </main>
+      <footer> This project was coded by
         <a href="https://github.com/" target="_blank">Sinikeziwe Mdliva</a> ,
         code hosted by
         <a
@@ -111,7 +61,8 @@
         >
         and website hosted on
         <a href="https://majestic-custard-f0f1fa.netlify.app/" target="_blank"
-          >Netlify</a>
+          >Netlify</a
+        >
       </footer>
     </div>
     <script src="src/index.js"></script>
